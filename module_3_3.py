@@ -5,7 +5,7 @@ def print_params(a=1, b='строка', c=True):
 values_list = [33, 'AAAAAA', False]
 print_params()
 print_params(*values_list)
-print('1 ------------------------------------------')
+print('1 ------------Промежуточная проверка---------')
 values_dict = {'a': 77, 'b': 'FFFFF', 'c': True}
 print_params(**values_dict)
 print('2 ------------Итоговая проверка--------------')
